@@ -17,6 +17,12 @@ docker run -d --name details -p 8081:8081 details\
   -e SERVICE_VERSION=v2 -e 'MONGO_DB_URL=mongodb://mongodb:27017/ratings' ratings
 ```
 
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
+
 ## Website
 
 [Opsta (Thailand) Co., Ltd.](https://www.opsta.co.th)

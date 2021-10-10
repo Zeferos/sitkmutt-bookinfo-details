@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/zeferos/bookinfo-details:dev
+    container_name: details
+    ports: 
+      - "8081:8081"
