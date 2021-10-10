@@ -13,8 +13,7 @@ MIT License
 docker build -t details .
 
 # Run details service on port 8081
-docker run -d --name details -p 8081:8081 details\
-  -e SERVICE_VERSION=v2 -e 'MONGO_DB_URL=mongodb://mongodb:27017/ratings' ratings
+docker run -d --name details -p 8081:8081 details
 ```
 
 ## How to run with Docker Compose
